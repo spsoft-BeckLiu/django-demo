@@ -1,0 +1,154 @@
+log: D:\Development\master\pav\pav8-dist\target\image\Console\log\Console
+     System Mnitor
+run.bat: D:\Development\master\pav\pav8-dist\target\image\Console\bin
+web.xml:  D:\Development\master\pav\pav8-dist\target\image\Console\container\webapps\ROOT\WEB-INF
+build: console  D:\Development\master\pav\core\console
+              替换路径 D:\Development\master\pav\pav8-dist\target\image\Console\container\webapps\ROOT\WEB-INF\lib
+       webconsole D:\Development\master\pav\console\webconsole
+              build后路径  D:\Development\master\pav\console\webconsole\target\war
+              替换路径     D:\Development\master\pav\pav8-dist\target\image\Console\container\webapps\ROOT
+
+debug: 1 在[com.pav.console.struts.ConsoleActionServlet]类中断点
+       2 使用request.getRequestURI()中的Watch找到action名称
+       3 在console-struts-config.xml文件中找到action对用文件
+       4 查看对应的execute方法
+
+
+java -jar yuicompressor-2.4.8.jar model.js -o model.min.js
+
+jira: http://10.85.36.85/jira/browse/PROT-452?filter=-1
+
+troy.cloudapp.net:1210
+troy.cloudapp.net:1729
+0fd8a720928130e5fc2d008351e95f60034b5056f93e1fe02f479ac65281cd1aa1f5441083a275ed7ecf97f75a0781696fa9ab45eb6a64231bb9abae4238d179
+
+
+[Root Cause]
+Zero cut-off can be uploaded for forecast model.
+
+[Solution]
+Zero cut-off can't be uploaded for forecast model.
+
+[File Change]
+ProteusClient.Web\Model\saveSetupData.php
+
+[Test Impact]
+Please check the zero cut-off when uploading in the model page.
+
+
+monicavm 192.168.3.56 test 123456
+
+GPN: bliu11/gvnzmzU7
+
+sqlserver: sa/beck.liu
+
+
+重新build：改端口号  D:\Development\master\pav\pav8-dist\target\image\Console\bin\pavilionConsole.conf
+	   添加jar包 D:\Development\master\pav\pav8-dist\target\image\Console\container\lib
+	   更改web.xml文件
+
+ netstat -aon|findstr "80"
+ taskkill /f /pid 100
+ netsh winsock reset
+
+
+MAXFUZZYCON
+MINFUZZYCON
+
+FrustumUpperProfile
+FrustumLowerProfile
+
+
+MAXHARDCON
+MINHARDCON
+
+HORIZONS
+CURRVALUE
+DESIRED
+
+
+灰色
+红色
+fuzzy
+frustum
+hard
+颜色叠加
+tooltip click是否精确 红色灰色是tooltip
+
+
+
+
+
+--1 取消frustum后依然有背景色
+--2 边框为红色
+3 红色图片不显示及显示不正常
+
+--4 红色覆盖所有线
+--5 红色时tooltip换行
+--6 tooltip显示一会就消失
+--7 frustum变换数值
+--8  Hard Constraints不能覆盖frustum
+
+
+灰色一小时之后
+散点图的tooltip
+
+1 图片不显示
+2 frustum不显示
+3 浅红色背景
+4 上边中间的数字
+
+
+1 不刷新图片
+2 横坐标
+3 不刷新current value
+4 历史模式有灰色红色
+
+
+更新文件 ps26
+	 ps14
+	 newchartServlet
+	 plotter
+	 linePlotter
+
+
+1 current value 变为黑点
+1 Fix bug: The current value region will be a black point when the current value is null.
+
+
+2 history model 不刷新
+2 Fix bug: The chart refresh when replaying history data.
+
+3 history model 横坐标
+3 Fix bug: The value of time axis doesn't change when replaying history data.
+
+4 history model current value 不变化
+4 Fix bug: The current value of chart doesn't change when replaying history data.
+
+
+
+1 Output的作用
+2 state Variable 和demand forecast的区别
+3 Demand:Price:是现在的吗
+4 Options
+
+mvn clean install -o -DskipTests
+
+D:\Development\master\pav\cnsl\console-ui\target\jsp-source\org\apache\jsp\WEB_002dINF\jsp
+
+D:\Development\master\pav\pav8-dist\target\image\Dashboard\container\webapps\console\WEB-INF\classes\org\apache\jsp\WEB_002dINF\jsp
+
+python简明教程 git pro markdown github
+
+
+新建github 公司邮箱 spsoft-Beck Liu
+生成ssh key
+global name和global email 姓名和公司邮箱
+
+
+
+ssh-keygen -t rsa -C "beck.liu@spsoft-cn.com"
+
+
+origin代表的含义
+什么是分布式
